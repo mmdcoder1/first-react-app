@@ -4,7 +4,7 @@
 }
 body{
     min-height: 100vh;
-    min-width: 100vh;
+    min-width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -59,7 +59,7 @@ body{
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     border-radius: 4px;
     outline: none;
-    background: url('../../icons/search.svg') no-repeat 33rem 6px;
+    background: url('../../icons/search.svg') no-repeat 32.85rem 6px;
     font-size: 1rem;
     color: #444444;
     transition: all 300ms;
@@ -97,4 +97,32 @@ body{
 .popular_cities_title{
     color: #333;
     font-family: vazir-light;
+}
+.city_list{
+    width: 566px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: #ffffff;
+    margin-top: 0.4rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 3px;
+    position: absolute;
+    z-index: 2;
+    overflow: hidden;
+}
+.city_item{
+    text-decoration: none;
+    padding: 1rem;
+    color: #444;
+    width: 100%;
+    transition: background-color 100ms;
+}
+.city_item:hover{
+    background-color: rgba(0,0,0,.02);
+}
+/* Responsive */
+@media (max-width:600px){
+    .container, .search{width: 400px;}
+    .search{background-position: 22.45rem 6px;}
 }

@@ -1,9 +1,11 @@
-function App() {
+import ChooseCity from './components/choose-city/ChooseCity';
+
+const App = () => {
   return (
     <div>
-        <h2>Hello World</h2>
+        <ChooseCity />
     </div>
   );
-}
+};
 
 export default App;

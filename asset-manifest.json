@@ -1,10 +1,17 @@
 {
   "files": {
-    "main.js": "/first-react-app/static/js/main.8231c5d9.js",
+    "main.css": "/first-react-app/static/css/main.cdafd8f0.css",
+    "main.js": "/first-react-app/static/js/main.f941c162.js",
+    "static/media/Vazir-Medium.ttf": "/first-react-app/static/media/Vazir-Medium.36bc3e5e26823f9e9af8.ttf",
+    "static/media/Vazir-Light.ttf": "/first-react-app/static/media/Vazir-Light.7bbe0ee60e704d959e3c.ttf",
+    "static/media/logo.svg": "/first-react-app/static/media/logo.42eba05a4eec0fd9d71d49b9d0e7a093.svg",
     "index.html": "/first-react-app/index.html",
-    "main.8231c5d9.js.map": "/first-react-app/static/js/main.8231c5d9.js.map"
+    "static/media/search.svg": "/first-react-app/static/media/search.d5e5399f6d220b623b4d.svg",
+    "main.cdafd8f0.css.map": "/first-react-app/static/css/main.cdafd8f0.css.map",
+    "main.f941c162.js.map": "/first-react-app/static/js/main.f941c162.js.map"
   },
   "entrypoints": [
-    "static/js/main.8231c5d9.js"
+    "static/css/main.cdafd8f0.css",
+    "static/js/main.f941c162.js"
   ]
 }
